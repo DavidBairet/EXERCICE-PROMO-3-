@@ -48,3 +48,11 @@ body {
     margin-top: 0;
     margin-bottom: 25px;
 }
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+    
