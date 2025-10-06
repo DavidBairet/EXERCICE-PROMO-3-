@@ -17,9 +17,9 @@ body {
 
 .profile-card {
     background-color: white;
-    padding: 40px;
+    padding: 50px;
     border-radius: 15px;
-    box-shadow: 0 10px 10px red;
+    box-shadow: 0 10px 90px red;
     text-align: center;
     max-width: 350px;
     width: 90%;
