@@ -49,11 +49,25 @@ body {
     margin-bottom: 25px;
 }
 .social{
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     gap: 15px;
     margin-bottom: 25px;
+}
+.contact-btn {
+  display: block;
+  margin: 25px auto 0; 
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;  
+}
+
+.contact-btn:hover {
+  background-color: #000;
+  color: #fff;
 }
 
     
