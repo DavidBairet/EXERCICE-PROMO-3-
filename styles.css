@@ -8,6 +8,7 @@
   --button-hover-text: hsl(0, 50%, 60%); /* texte du bouton au survol */
   --radius: 15px;              /* arrondi des bords */
   --shadow: 0 10px 90px var(--accent-color); /* ombre avec la couleur principale */
+  --font-main: 'Arial', sans-serif; /* police principale */
 }
 body {
   font-family: Arial, sans-serif;
@@ -17,6 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  font-family: var(--font-main);
 }
 
 
@@ -50,13 +52,13 @@ body {
   font-size: 1.8em;
   margin-top: 0;
   margin-bottom: 5px;
-}
+ }
 
 .profile-card h2 {
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 25px;
-}
+  }
 
 .social {
   margin-top: 30px;
