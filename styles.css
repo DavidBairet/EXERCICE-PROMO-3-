@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f7f6;
@@ -61,13 +62,20 @@ body {
   padding: 10px 20px;
   border: 1px solid #000;
   border-radius: 6px;
-  background-color: #fff;
+  background-color: hsl(50,50%, 60%);
   cursor: pointer;  
 }
 
 .contact-btn:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: #000; /* couleur du fond au survol */
+  color: hsl(0,50%, 60%); /* couleur du texte au survol */
+}
+
+.nom {
+  text-transform: uppercase; 
+}
+.prenom {
+  text-transform: capitalize; 
 }
 
     
